@@ -1,0 +1,24 @@
+{
+    "ai-list": [
+        {
+            "img": "https://ceping.qinglan.cn/uniapp/new/ai-bot/1-img.png",
+            "name": "聊愈师星星",
+            "logo": "https://ceping.qinglan.cn/uniapp/new/ai-bot/1-logo.png"
+        },
+        {
+            "img": "https://ceping.qinglan.cn/uniapp/new/ai-bot/2-img.png",
+            "name": "聊愈师跳跳",
+            "logo": "https://ceping.qinglan.cn/uniapp/new/ai-bot/2-logo.png"
+        },
+        {
+            "img": "https://ceping.qinglan.cn/uniapp/new/ai-bot/3-img.png",
+            "name": "聊愈师可可",
+            "logo": "https://ceping.qinglan.cn/uniapp/new/ai-bot/3-logo.png"
+        },
+        {
+            "img": "https://ceping.qinglan.cn/uniapp/new/ai-bot/4-img.png",
+            "name": "聊愈师秀秀",
+            "logo": "https://ceping.qinglan.cn/uniapp/new/ai-bot/4-logo.png"
+        }
+    ]
+}

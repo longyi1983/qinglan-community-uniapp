@@ -1,0 +1,14 @@
+{
+    "normal": {
+        "zika": 88,
+        "tuka": 88
+    },
+    "child": {
+        "zika": 60,
+        "tuka": 38
+    },
+    "emotion": {
+        "zika": 50,
+        "tuka": 40
+    }
+}

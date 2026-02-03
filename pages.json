@@ -1,0 +1,882 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+		"^l-painter(.*)": "@/uni_modules/lime-painter/components/l-painter$1/l-painter$1.vue"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#6982FA",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "main/index/index",
+				"iconPath": "static/tabbar/home-1.png",
+				"selectedIconPath": "static/tabbar/home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "main/community/community",
+				"iconPath": "static/tabbar/dynamics-1.png",
+				"selectedIconPath": "static/tabbar/dynamics.png",
+				"text": "动态"
+			},
+			{
+				"pagePath": "main/message/message",
+				"iconPath": "static/tabbar/msg-1.png",
+				"selectedIconPath": "static/tabbar/msg.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "main/my/my",
+				"iconPath": "static/tabbar/my-1.png",
+				"selectedIconPath": "static/tabbar/my.png",
+				"text": "我的"
+			}
+		]
+	},
+	"pages": [
+		{
+			"path": "main/index/index",
+			"style": {
+				"navigationBarTitleText": "栖心港",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/square/square",
+			"style": {
+				"navigationBarTitleText": "广场",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/community/community",
+			"style": {
+				"navigationBarTitleText": "栖心港",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/topic/topic",
+			"style": {
+				"navigationBarTitleText": "话题广场",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/scale/scale",
+			"style": {
+				"navigationBarTitleText": "量表交流",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/my/history-scale/history-scale",
+			"style": {
+				"navigationBarTitleText": "历史测评",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/my/vip/vip",
+			"style": {
+				"navigationBarTitleText": "会员",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/my/follow/follow",
+			"style": {
+				"navigationBarTitleText": "我的关注",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/activity/activity",
+			"style": {
+				"navigationBarTitleText": "近期活动",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/activity/detail/detail",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+		{
+			"path": "main/activity/enroll/enroll",
+			"style": {
+				"navigationBarTitleText": "立即报名"
+			}
+		},
+		{
+			"path": "main/activity/result/result",
+			"style": {
+				"navigationBarTitleText": "报名成功",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "main/message/follow/follow",
+			"style": {
+				"navigationBarTitleText": "新增关注",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "main/my/feedback/feedback",
+			"style" : 
+			{
+				"navigationBarTitleText" : "意见反馈"
+			}
+		},
+		{
+			"path" : "main/pay/pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "支付",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "personal",
+			"pages": [{
+				"path" : "partner/partner",
+				"style" : 
+				{
+					"navigationBarTitleText" : "我的伙伴",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "partner/group/group",
+				"style" : 
+				{
+					"navigationBarTitleText" : "我的群组",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "partner/promotion/promotion",
+				"style" : 
+				{
+					"navigationBarTitleText" : "我的推广",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "partner/activity/activity",
+				"style" : 
+				{
+					"navigationBarTitleText" : "我的活动",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "archive/archive",
+				"style" : 
+				{
+					"navigationBarTitleText" : "档案",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "archive/list/list",
+				"style" : 
+				{
+					"navigationBarTitleText" : "我的档案",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "archive/edit/edit",
+				"style" : 
+				{
+					"navigationBarTitleText" : "新建档案",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "history/scale/scale",
+				"style" : 
+				{
+					"navigationBarTitleText" : "量表历史记录",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "history/evaluation/evaluation",
+				"style" : 
+				{
+					"navigationBarTitleText" : "心理评估历史",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "history/ai/ai",
+				"style" : 
+				{
+					"navigationBarTitleText" : "疗愈记录",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "history/activity/activity",
+				"style" : 
+				{
+					"navigationBarTitleText" : "历史活动",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "partner/withdrawal/withdrawal",
+				"style" : 
+				{
+					"navigationBarTitleText" : "提现"
+				}
+			},
+			{
+				"path" : "partner/withdrawal/list",
+				"style" : 
+				{
+					"navigationBarTitleText" : "提现记录",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "partner/describe/describe",
+				"style" : 
+				{
+					"navigationBarTitleText" : "青蓝币",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "history/money/money",
+				"style" : 
+				{
+					"navigationBarTitleText" : "青蓝币获取记录",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "partner/invite/invite",
+				"style" : 
+				{
+					"navigationBarTitleText" : "邀请有礼",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "synchronization/synchronization",
+				"style" : 
+				{
+					"navigationBarTitleText" : "数据同步",
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "ai",
+			"pages": [{
+					"path": "mode/mode",
+					"style": {
+						"navigationBarTitleText": "模式选择",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "ohCard/ohCard",
+					"style": {
+						"navigationBarTitleText": "挑选爱卡",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "ohCard/chat/chat",
+					"style": {
+						"navigationBarTitleText": "爱卡聊天",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "ohCard/result/result",
+					"style": {
+						"navigationBarTitleText": "解析",
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		},
+		{
+			"root": "scale",
+			"pages": [{
+					"path": "list/list",
+					"style": {
+						"navigationBarTitleText": "量表列表",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "categorize/categorize",
+					"style": {
+						"navigationBarTitleText": "量表分类",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "detail/detail",
+					"style": {
+						"navigationBarTitleText": "量表详情",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "test/test",
+					"style": {
+						"navigationBarTitleText": "量表测试",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "result/result",
+					"style": {
+						"navigationBarTitleText": "量表结果",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "evaluation/evaluation",
+					"style" : 
+					{
+						"navigationBarTitleText" : "个人信息",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "evaluation/instruction/instruction",
+					"style" : 
+					{
+						"navigationBarTitleText" : "说明",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "evaluation/result/result",
+					"style" : 
+					{
+						"navigationBarTitleText" : "测评结果",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "evaluation/rate/rate",
+					"style" : 
+					{
+						"navigationBarTitleText" : "评价",
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		},
+		{
+			"root": "subpages/content",
+			"pages": [{
+					"path": "article/article",
+					"style": {
+						"navigationBarTitleText": "详情"
+					}
+				},
+				{
+					"path": "article/add",
+					"style": {
+						"navigationBarTitleText": "发长文",
+						"enablePullDownRefresh": false
+					}
+
+				}
+
+
+				, {
+					"path": "member-management/member-management",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "topic-apply/topic-apply",
+					"style": {
+						"navigationBarTitleText": "进圈答题",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "apply-list/apply-list",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "level/level",
+					"style": {
+
+						"navigationBarTitleText": "用户经验等级"
+					}
+
+				},
+				{
+					"path": "rank/rank",
+					"style": {
+						"navigationBarTitleText": "排行榜"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages",
+			"pages": [{
+					"path": "index/index",
+					"style": {
+						"navigationBarTitleText": "主页",
+						"backgroundColor": "#fff",
+						"navigationBarTextStyle": "black",
+						"enablePullDownRefresh": true,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "my/my",
+					"style": {
+						"navigationBarTitleText": "个人中心",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "post/detail",
+					"style": {
+						"navigationBarTitleText": "动态详情"
+					}
+				},
+				{
+					"path": "post/confirm",
+					"style": {
+						"navigationBarTitleText": "付费确认"
+					}
+				},
+				{
+					"path": "user/login",
+					"style": {
+						"navigationBarTitleText": "登录"
+					}
+				}, {
+					"path": "user/home",
+					"style": {
+						"navigationBarTitleText": "个人主页",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "topic/detail",
+					"style": {
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true,
+						"navigationBarTextStyle": "white"
+					}
+				}, {
+					"path": "discuss/detail",
+					"style": {}
+				}, {
+					"path": "my/discuss",
+					"style": {}
+				}, {
+					"path": "my/topic",
+					"style": {}
+				}, {
+					"path": "my/post",
+					"style": {}
+				}, {
+					"path": "my/thumb",
+					"style": {}
+				}, {
+					"path": "post/add",
+					"style": {
+						"navigationBarTitleText": "发帖",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "message/message",
+					"style": {
+
+					}
+				}, {
+					"path": "message/list",
+					"style": {}
+				}, {
+					"path": "my/fans",
+					"style": {}
+				}, {
+					"path": "my/follow",
+					"style": {}
+				}, {
+					"path": "topic/add/add",
+					"style": {}
+				}, {
+					"path": "square/square",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "topic/class-list",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "discuss/add",
+					"style": {}
+				}, {
+					"path": "user/edit-info/edit",
+					"style": {
+						"navigationBarTitleText": "编辑资料"
+					}
+				}, {
+					"path": "user/edit-info/submit",
+					"style": {
+						"navigationBarTitleText": "编辑资料",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "topic/list",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "jump/jump",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "post/video-detail",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"navigationBarTextStyle": "white"
+					}
+
+				},
+				{
+					"path": "system/system",
+					"style": {
+						"navigationBarTitleText": "系统消息",
+						"enablePullDownRefresh": true
+					}
+
+				},
+				{
+					"path": "discuss/list",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "topic/choose-topic/choose-topic",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "webview/webview",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "topic/topic-user",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "user/sms-login",
+					"style": {
+						"navigationBarTitleText": "登录",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "topic/info-edit",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "topic/add/category",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "topic/admin",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "vote/vote",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "discuss/choose-discuss/choose-discuss",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "search/search",
+					"style": {
+						"navigationBarTitleText": "搜索",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+
+				}
+
+				, {
+					"path": "pay/pay",
+					"style": {
+						"navigationBarTitleText": "余额充值",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "account/account",
+					"style": {
+						"navigationBarTitleText": "我的账户",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "bill/bill",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "sign/sign",
+					"style": {
+						"navigationBarTitleText": "签到",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "sign/integral",
+					"style": {
+						"navigationBarTitleText": "我的积分",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "user/contact",
+					"style": {
+						"navigationBarTitleText": "联系客服",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "luck-draw/luck-draw",
+					"style": {
+						"navigationBarTitleText": "抽奖",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "luck-draw/prize-record",
+					"style": {
+						"navigationBarTitleText": "抽奖记录",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "user/go-login",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "user/email-login",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "user/register",
+					"style": {
+						"navigationBarTitleText": "注册",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "user/protocol",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "report/report",
+					"style": {
+						"navigationBarTitleText": "举报中心",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "report/list",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "report/detail",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "user/vip/vip",
+					"style": {
+						"navigationBarTitleText": "会员",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "im/chat/chat",
+					"style": {
+						"navigationBarTitleText": "私聊",
+						"enablePullDownRefresh": false,
+						"backgroundColor": "#333",
+						"app-plus": {
+							"titleNView": {
+								"buttons": [{
+									"type": "menu"
+								}]
+							}
+						}
+
+					}
+
+				},
+				{
+					"path": "im/chat-list/chat-list",
+					"style": {
+						"navigationBarTitleText": "栖心港IM",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true
+					}
+				}
+
+				, {
+					"path": "im/notice-list/notice-list",
+					"style": {
+						"navigationBarTitleText": "通知消息",
+						"navigationStyle": "default"
+					}
+
+				}, {
+					"path": "user/edit-info/setting",
+					"style": {
+						"navigationBarTitleText": "系统设置",
+						"enablePullDownRefresh": false
+					}
+
+				}
+
+				, {
+					"path": "account/cash-out",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "error/error",
+					"style": {
+						"navigationBarTitleText": "404",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "post/video",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom",
+						"navigationBarTextStyle": "white"
+					}
+
+				},
+				{
+					"path" : "search-result/search-result",
+					"style" : 
+					{
+						"navigationBarTitleText" : "搜索",
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "栖心港",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}

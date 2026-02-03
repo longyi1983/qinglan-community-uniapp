@@ -1,0 +1,159 @@
+{
+    "name" : "栖心港",
+    "appid" : "__UNI__DEC0E60",
+    "description" : "青蓝心晴-栖心港",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "sassImplementationName" : "node-sass",
+    "app-plus" : {
+        "nvueCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "modules" : {
+            "VideoPlayer" : {},
+            "Record" : {},
+            "Camera" : {}
+        },
+        "distribute" : {
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86" ],
+                "targetSdkVersion" : 30
+            },
+            "ios" : {
+                "dSYMs" : false
+            },
+            "sdkConfigs" : {
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "",
+                        "appkey_android" : ""
+                    }
+                },
+                "ad" : {},
+                "payment" : {},
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wx3333af9ff3332221",
+                        "UniversalLinks" : ""
+                    }
+                }
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/logo.png",
+                    "xhdpi" : "unpackage/logo.png",
+                    "xxhdpi" : "unpackage/logo.png",
+                    "xxxhdpi" : "unpackage/logo.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/logo.png",
+                    "ipad" : {
+                        "app" : "unpackage/logo.png",
+                        "app@2x" : "unpackage/logo.png",
+                        "notification" : "unpackage/logo.png",
+                        "notification@2x" : "unpackage/logo.png",
+                        "proapp@2x" : "unpackage/logo.png",
+                        "settings" : "unpackage/logo.png",
+                        "settings@2x" : "unpackage/logo.png",
+                        "spotlight" : "unpackage/logo.png",
+                        "spotlight@2x" : "unpackage/logo.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/logo.png",
+                        "app@3x" : "unpackage/logo.png",
+                        "notification@2x" : "unpackage/logo.png",
+                        "notification@3x" : "unpackage/logo.png",
+                        "settings@2x" : "unpackage/logo.png",
+                        "settings@3x" : "unpackage/logo.png",
+                        "spotlight@2x" : "unpackage/logo.png",
+                        "spotlight@3x" : "unpackage/logo.png"
+                    }
+                }
+            },
+            "splashscreen" : {
+                "androidStyle" : "default",
+                "useOriginalMsgbox" : true,
+                "iosStyle" : "common"
+            }
+        }
+    },
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "wx15c6a8a8893d30a9",
+        "setting" : {
+            "urlCheck" : true,
+            "minified" : true,
+            "es6" : true
+        },
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取用户位置信息"
+            }
+        },
+        "optimization" : {
+            "subPackages" : true
+        },
+        "requiredPrivateInfos" : [ "chooseLocation" ],
+        "__usePrivacyCheck__" : true
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true,
+        "appid" : "ttec919a2c739d3fd201",
+        "setting" : {
+            "minified" : true,
+            "es6" : true
+        }
+    },
+    "h5" : {
+        "title" : "青蓝心晴",
+        "domain" : "https://h5.qinglanxinqing.com/",
+        "router" : {
+            "base" : "./",
+            "mode" : "hash"
+        },
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : true
+            }
+        },
+        "sdkConfigs" : {
+            "maps" : {
+                "qqmap" : {
+                    "key" : "PDIBZ-CLV3W-ZRQRJ-RHAGW-AOVPO-TGFC2"
+                }
+            }
+        },
+        "devServer" : {
+            "port" : 8002
+        }
+    },
+    "locale" : "auto"
+}
